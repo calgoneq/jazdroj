@@ -1,0 +1,26 @@
+[
+  {
+    "nazwa": "string 1",
+    "opis": "test znaków polskich, jeśli działają to podany tutaj tekst powinnien działać.",
+    "zdjecie": "zdjecie",
+    "typ": "typ",
+    "kategoria": "kategoria",
+    "link": "link"
+  },
+  {
+    "nazwa": "string 2",
+    "opis": "opis",
+    "zdjecie": "zdjecie",
+    "typ": "miejsce",
+    "kategoria": "kategoria",
+    "link": "https://www.example.com"
+  },
+  {
+    "nazwa": "string 3",
+    "opis": "opis",
+    "zdjecie": "zdjecie",
+    "typ": "placowka",
+    "kategoria": "kategoria",
+    "link": null
+  }
+]
