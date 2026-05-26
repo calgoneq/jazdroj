@@ -3,6 +3,9 @@ import {NavigationContainer} from '@react-navigation/native';
 import {createBottomTabNavigator} from '@react-navigation/bottom-tabs';
 import {ModalPortal} from 'react-native-modals';
 import {SafeAreaProvider} from 'react-native-safe-area-context';
+import {enableFreeze} from 'react-native-screens';
+import {LogBox} from 'react-native';
+
 import Places from './screens/Places';
 import Settings from './screens/Settings';
 import Calendar from './screens/Calendar';
@@ -11,14 +14,11 @@ import {InfoNavigator} from './InfoNavigator';
 import {WaysNavigator} from './WaysNavigator';
 
 import {lightTheme} from './themes/light.js';
+
 import TabComponent from './components/Tab';
 import Loader from './components/loader/LoaderStart';
 
-import {onValue, ref} from 'firebase/database';
-import {db, getImagesFromFolders} from './config/config';
-
-import {enableFreeze} from 'react-native-screens';
-import {LogBox} from 'react-native';
+import placesData from "./data/places.json"
 
 LogBox.ignoreAllLogs();
 
@@ -31,66 +31,10 @@ export const KategorieContext = createContext();
 export const FirebaseDataContext = createContext();
 
 function App() {
-  const [firebaseData, setFirebaseData] = useState(null);
-  const [firebaseImages, setFirebaseImages] = useState([]);
-  const [isLoaded, setIsLoaded] = useState(false);
+  const [firebaseData, setFirebaseData] = useState(placesData);
+  const [firebaseImages, setFirebaseImages] = useState({});
+  const [isLoaded, setIsLoaded] = useState(true);
   const [theme, setTheme] = useState(lightTheme);
-
-  function removeExtensionFromFilename(filename) {
-    return filename.split('.')[0].split('%2F')[1].split('%')[0];
-  }
-
-  useEffect(() => {
-    const fetchData = async () => {
-      try {
-        const daneReference = ref(db, 'Dane');
-        onValue(daneReference, snapshot => {
-          const dataDane = snapshot.val();
-
-          const dataReference = ref(db, 'Data');
-          onValue(dataReference, snapshot => {
-            const dataData = snapshot.val();
-
-            const mergedData = {...dataDane, ...dataData};
-            setFirebaseData(mergedData);
-          });
-        });
-
-        const selectedFolders = [
-          'miejsca',
-          'placowki',
-          'sciezki',
-          'karuzela1',
-          'karuzela2',
-          'karuzela3',
-          'karuzela4',
-          'karuzela5',
-        ];
-        const imagesFromFolders = await getImagesFromFolders(selectedFolders);
-
-        if (imagesFromFolders.length > 0) {
-          const imageNamesWithoutExtension = imagesFromFolders.map(filename =>
-            removeExtensionFromFilename(filename.split('/').pop()),
-          );
-
-          const firebaseImage = {};
-          imageNamesWithoutExtension.forEach((name, index) => {
-            firebaseImage[name] = imagesFromFolders[index];
-          });
-
-          setFirebaseImages(firebaseImage);
-        }
-
-        setIsLoaded(true);
-      } catch (error) {
-        console.error('Error fetching data:', error);
-      }
-    };
-
-    const fetchDataTimeout = setTimeout(fetchData, 2500);
-
-    return () => clearTimeout(fetchDataTimeout);
-  }, []);
 
   const [all, setall] = useState(true);
   const [noclegidisplay, setnoclegidisplay] = useState(false);
