@@ -20,7 +20,7 @@ import {
 import {Trace, EndTrace, StartTrace} from './TraceComponents';
 import {useTheme} from '@react-navigation/native';
 import Geolocation from 'react-native-geolocation-service';
-import {ThemeContext, FirebaseDataContext} from '../../App';
+import {ThemeContext, DataContext} from '../../App';
 import {lightTheme} from '../../themes/light';
 import {globalStyles} from '../../styles/GlobalStyles';
 import Loader from '../../components/loader/LoaderStart';
@@ -29,7 +29,7 @@ const Way1 = props => {
   const {colors} = useTheme();
   const {theme} = useContext(ThemeContext);
   const {firebaseData, firebaseImages, isLoaded} =
-    useContext(FirebaseDataContext);
+    useContext(DataContext);
 
   const [forceLocation, setForceLocation] = useState(true);
   const [highAccuracy, setHighAccuracy] = useState(true);

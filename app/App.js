@@ -28,7 +28,7 @@ const Tab = createBottomTabNavigator();
 
 export const ThemeContext = createContext();
 export const KategorieContext = createContext();
-export const FirebaseDataContext = createContext();
+export const DataContext = createContext();
 
 function App() {
   const [firebaseData, setFirebaseData] = useState(placesData);
@@ -54,7 +54,7 @@ function App() {
 
   return (
     <SafeAreaProvider>
-      <FirebaseDataContext.Provider
+      <DataContext.Provider
         value={{firebaseData, firebaseImages, isLoaded}}>
         <ThemeContext.Provider value={{theme, setTheme, isLoaded}}>
           <KategorieContext.Provider
@@ -162,7 +162,7 @@ function App() {
             {isLoaded == false ? <Loader /> : null}
           </KategorieContext.Provider>
         </ThemeContext.Provider>
-      </FirebaseDataContext.Provider>
+      </DataContext.Provider>
     </SafeAreaProvider>
   );
 }

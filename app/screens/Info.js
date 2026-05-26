@@ -2,14 +2,14 @@ import React, {useContext, useEffect, useState} from 'react';
 import {View, Image, ScrollView} from 'react-native';
 import Information from '../components/info/Information';
 import {lightTheme} from '../themes/light';
-import {ThemeContext, FirebaseDataContext} from '../App';
+import {ThemeContext, DataContext} from '../App';
 import {globalStyles} from '../styles/GlobalStyles';
 import Loader from '../components/loader/LoaderStart';
 
 function Info({navigation}) {
   const {theme} = useContext(ThemeContext);
   const {firebaseData, firebaseImages, isLoaded} =
-    useContext(FirebaseDataContext);
+    useContext(DataContext);
   const [placesData, setPlacesData] = useState([]);
 
   const image = {

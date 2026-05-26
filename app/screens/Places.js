@@ -1,7 +1,7 @@
 import React, {useState, useEffect, useContext} from 'react';
 import {View, Image, ScrollView, TouchableOpacity} from 'react-native';
 import {lightTheme} from '../themes/light';
-import {ThemeContext, FirebaseDataContext} from '../App';
+import {ThemeContext, DataContext} from '../App';
 import PopupSettings from '../components/PopupSettings';
 import {Information} from '../components/places/PlaceComponents';
 import {globalStyles} from '../styles/GlobalStyles';
@@ -11,7 +11,7 @@ function Places(props) {
   const {theme} = useContext(ThemeContext);
   const [bottomModalAndTitle, setBottomModalAndTitle] = useState(false);
   const [mainText, setmainText] = useState('');
-  const {firebaseData, isLoaded} = useContext(FirebaseDataContext);
+  const {firebaseData, isLoaded} = useContext(DataContext);
   const [placesData, setPlacesData] = useState([]);
   const [displayedItems, setDisplayedItems] = useState([]);
   const [selectedCategory, setSelectedCategory] = useState('');

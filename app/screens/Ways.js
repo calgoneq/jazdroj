@@ -2,12 +2,12 @@ import React, {useContext} from 'react';
 import {View} from 'react-native';
 import {ScrollView} from 'react-native-gesture-handler';
 
-import {FirebaseDataContext} from '../App';
+import {DataContext} from '../App';
 import WaySelector from '../components/ways/WaySelector';
 import Loader from '../components/loader/LoaderStart';
 
 function Ways({navigation}) {
-  const {firebaseImages, isLoaded} = useContext(FirebaseDataContext);
+  const {firebaseImages, isLoaded} = useContext(DataContext);
 
   return (
     <View>

@@ -2,7 +2,7 @@ import React, {useState, useEffect, useContext} from 'react';
 import {View, Text, Image, TouchableOpacity, Linking} from 'react-native';
 import {useTheme} from '@react-navigation/native';
 import {globalStyles} from '../../styles/GlobalStyles';
-import {FirebaseDataContext} from '../../App';
+import {DataContext} from '../../App';
 
 export const Information = props => {
   const {colors} = useTheme();
@@ -46,7 +46,7 @@ export const Categories = ({
 }) => {
   const {colors} = useTheme();
 
-  const {firebaseData} = useContext(FirebaseDataContext);
+  const {firebaseData} = useContext(DataContext);
   const [placesData, setPlacesData] = useState([]);
 
   useEffect(() => {
