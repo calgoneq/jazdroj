@@ -3,7 +3,7 @@
     "nazwa": "string 1",
     "opis": "test znaków polskich, jeśli działają to podany tutaj tekst powinnien działać.",
     "zdjecie": "zdjecie",
-    "typ": "typ",
+    "typ": "miejsce",
     "kategoria": "kategoria",
     "link": "link"
   },

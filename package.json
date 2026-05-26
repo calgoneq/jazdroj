@@ -10,13 +10,9 @@
     "test": "jest"
   },
   "dependencies": {
-    "@react-native-firebase/app": "^18.8.0",
-    "@react-native-firebase/database": "^18.8.0",
-    "@react-native-firebase/storage": "^18.8.0",
     "@react-navigation/bottom-tabs": "^6.5.11",
     "@react-navigation/native": "^6.1.9",
     "@react-navigation/stack": "^6.3.20",
-    "firebase": "^10.7.2",
     "i18next": "^23.7.20",
     "lottie-react-native": "^6.6.0",
     "metro-react-native-babel-preset": "^0.77.0",
