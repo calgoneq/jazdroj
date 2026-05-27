@@ -20,12 +20,12 @@ Previously published on **Google Play Store**.
 - **Practical info** — pharmacies, hospitals, bike rentals, transport
 - **Dark / light theme**
 - **Multilingual** — Polish 🇵🇱 / English 🇬🇧 (Czech planned)
-- **Firebase backend** — real-time data sync via Firebase Realtime Database
+- **Local static data** — bundled JSON, no backend required
 
 ## Stack
 
 - **React Native 0.73** (bare workflow)
-- **Firebase** — Realtime Database + Storage
+- **Static JSON** — local data bundle, no backend dependency
 - **React Navigation** — bottom tabs + stack navigators
 - **Context API** — theme, language, category filters
 - **i18next** — internationalization
@@ -36,10 +36,6 @@ Previously published on **Google Play Store**.
 
 ```bash
 npm install
-
-# Copy environment config
-cp .env.example .env
-# Fill in your Firebase credentials in .env
 
 # iOS
 npx pod-install
@@ -60,15 +56,11 @@ app/
 │   ├── places/
 │   ├── ways/
 │   └── loader/
-├── config/          # Firebase initialization
+├── data/            # Static JSON data (places, ways)
 ├── themes/          # Light and dark theme definitions
 ├── styles/          # Global styles
 └── images/          # Local assets and icons
 ```
-
-## Known Issues
-
-- Firebase Storage plan downgraded — remote images currently unavailable. Placeholder fallback in progress.
 
 ## Background
 
