@@ -28,7 +28,7 @@ import Loader from '../../components/loader/LoaderStart';
 const Way1 = props => {
   const {colors} = useTheme();
   const {theme} = useContext(ThemeContext);
-  const {firebaseData, firebaseImages, isLoaded} =
+  const {waysData, firebaseImages, isLoaded} =
     useContext(DataContext);
 
   const [forceLocation, setForceLocation] = useState(true);
@@ -178,49 +178,49 @@ const Way1 = props => {
         <Trace
           image={firebaseImages['waysParkZdrojowy']}
           mainDesc="Park Zdrojowy"
-          desc={firebaseData?.waysParkZdrojowy}
+          desc={waysData?.waysParkZdrojowy}
           lenght="150m"
         />
         <Trace
           image={firebaseImages['waysDomZdrojowy']}
           mainDesc="Dom Zdrojowy"
-          desc={firebaseData?.waysDomZdrojowy}
+          desc={waysData?.waysDomZdrojowy}
           lenght="120m"
         />
         <Trace
           image={firebaseImages['waysInhalatoriumSolankowe']}
           mainDesc="Inhalatorium solankowe"
-          desc={firebaseData?.waysInhalatoriumSolankowe}
+          desc={waysData?.waysInhalatoriumSolankowe}
           lenght="5m"
         />
         <Trace
           image={firebaseImages['waysRzezbaDuet']}
           mainDesc="Rzeźba Duet"
-          desc={firebaseData?.waysRzezbaDuet}
+          desc={waysData?.waysRzezbaDuet}
           lenght="0,5km"
         />
         <Trace
           image={firebaseImages['waysLazienki']}
           mainDesc="Łazienki"
-          desc={firebaseData?.waysLazienki}
+          desc={waysData?.waysLazienki}
           lenght="0,7km"
         />
         <Trace
           image={firebaseImages['waysDabrowka']}
           mainDesc="Dąbrówka"
-          desc={firebaseData?.waysDabrowka}
+          desc={waysData?.waysDabrowka}
           lenght="280m"
         />
         <Trace
           image={firebaseImages['waysWillaOpolanka']}
           mainDesc="Willa Opolanka"
-          desc={firebaseData?.waysWillaOpolanka}
+          desc={waysData?.waysWillaOpolanka}
           lenght="2,1km"
         />
         <Trace
           image={firebaseImages['waysOsrodekWypoczynkuNiedzielnego']}
           mainDesc="Ośrodek Wypoczynku Niedzielnego"
-          desc={firebaseData?.waysOsrodekWypoczynkuNiedzielnego}
+          desc={waysData?.waysOsrodekWypoczynkuNiedzielnego}
           lenght=""
         />
         <EndTrace />

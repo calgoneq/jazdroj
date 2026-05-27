@@ -19,6 +19,7 @@ import TabComponent from './components/Tab';
 import Loader from './components/loader/LoaderStart';
 
 import placesData from "./data/places.json"
+import waysData from "./data/ways.json"
 
 LogBox.ignoreAllLogs();
 
@@ -32,6 +33,7 @@ export const DataContext = createContext();
 
 function App() {
   const [firebaseData, setFirebaseData] = useState(placesData);
+  const [appWaysData] = useState(waysData)
   const [firebaseImages, setFirebaseImages] = useState({});
   const [isLoaded, setIsLoaded] = useState(true);
   const [theme, setTheme] = useState(lightTheme);
@@ -55,7 +57,7 @@ function App() {
   return (
     <SafeAreaProvider>
       <DataContext.Provider
-        value={{firebaseData, firebaseImages, isLoaded}}>
+        value={{firebaseData, firebaseImages, isLoaded, waysData: appWaysData}}>
         <ThemeContext.Provider value={{theme, setTheme, isLoaded}}>
           <KategorieContext.Provider
             value={{

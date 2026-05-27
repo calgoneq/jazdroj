@@ -28,7 +28,7 @@ import Loader from '../../components/loader/LoaderStart';
 const Way1 = props => {
   const {colors} = useTheme();
   const {theme} = useContext(ThemeContext);
-  const {firebaseData, firebaseImages, isLoaded} =
+  const {waysData, firebaseImages, isLoaded} =
     useContext(DataContext);
 
   const [forceLocation, setForceLocation] = useState(true);
@@ -178,37 +178,37 @@ const Way1 = props => {
         <Trace
           image={firebaseImages['waysParkZdrojowy']}
           mainDesc="Park Zdrojowy"
-          desc={firebaseData?.waysParkZdrojowy}
+          desc={waysData?.waysParkZdrojowy}
           lenght="400m"
         />
         <Trace
           image={firebaseImages['waysJagodka']}
           mainDesc="Jagódka"
-          desc={firebaseData?.waysJagodka}
+          desc={waysData?.waysJagodka}
           lenght="450m"
         />
         <Trace
           image={firebaseImages['waysGaleriaDzwonkow']}
           mainDesc="Galeria Dzwonków"
-          desc={firebaseData?.waysGaleriaDzwonkow}
+          desc={waysData?.waysGaleriaDzwonkow}
           lenght="600m"
         />
         <Trace
           image={firebaseImages['waysSalaKoncertowa']}
           mainDesc="Sala koncertowa"
-          desc={firebaseData?.waysSalaKoncertowa}
+          desc={waysData?.waysSalaKoncertowa}
           lenght="1,3km"
         />
         <Trace
           image={firebaseImages['waysLodowisko']}
           mainDesc="Lodowisko"
-          desc={firebaseData?.waysLodowisko}
+          desc={waysData?.waysLodowisko}
           lenght="1km"
         />
         <Trace
           image={firebaseImages['waysOsrodekWypoczynkuNiedzielnego']}
           mainDesc="Ośrodek Wypoczynku Niedzielnego"
-          desc={firebaseData?.waysOsrodekWypoczynkuNiedzielnego}
+          desc={waysData?.waysOsrodekWypoczynkuNiedzielnego}
           lenght=""
         />
 
