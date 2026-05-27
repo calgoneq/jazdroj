@@ -1,26 +1,378 @@
 [
   {
-    "nazwa": "string 1",
-    "opis": "test znaków polskich, jeśli działają to podany tutaj tekst powinnien działać.",
-    "zdjecie": "zdjecie",
+    "nazwa": "Basen",
+    "opis": "Kryta pływalnia Laguna posiada przestronny basen, suchą saunę oraz solarium. Udostępniona jest nieodpłatnie: dzieciom i młodzieży z jastrzębskich szkół gimnazjalnych i ponadgimnazjalnych w ramach zajęć wychowania fizycznego oraz zawodnikom na treningi KDP „NAUTILUS i \"H2O\". Odpłatnie mogą z niej korzystać wszyscy chętni w atrakcyjnych godzinach i po promocyjnych cenach. Dużym zainteresowaniem cieszą się kursy Ratownika Wodnego oraz rekreacyjne zajęcia w wodzie Aqua Aerobic dla kobiet.",
+    "zdjecie": "",
     "typ": "miejsce",
-    "kategoria": "kategoria",
-    "link": "link"
+    "kategoria": "none",
+    "link": "https://maps.app.goo.gl/kx3rWTMkmorcWxBTA"
   },
   {
-    "nazwa": "string 2",
-    "opis": "opis",
-    "zdjecie": "zdjecie",
+    "nazwa": "Dwór Obronny",
+    "opis": "Niewielki dwór obronny w Bziu jest jedyną fortalicją zachowaną w tej części Śląska. Został wybudowany na początku XVII wieku w stylu późnorenesansowym między osadami Bzie Dolne i Bzie Średnie na ziemi należącej do rodziny Rostków. Budynek ma kształt prostokąta z niesymetrycznie umieszczonym ryzalitem i przybudówką. Zdobią go dekorowane trójkątne szczyty elewacji. Po śmierci ostatniego z rodziny Rostków budynek przechodził z rąk do rąk. Ostatnim właścicielem przed II wojną światową był Fryderyk Thau. Po wojnie nieco zniszczony dwór przeszedł na własność państwa. W latach 60. w odnowionym budynku otwarto ośrodek zdrowia a 10 lat później przedszkole. Zabytkiem dwór w Bziu jest od 1966 roku. Obecnie mieści się w nim kilka instytucji i nie jest udostępniony do zwiedzania. Obok rezydencji możemy zobaczyć pozostałości dawnego parku dworskiego, gdzie znajdują się pomnikowe okazy dębów.",
+    "zdjecie": "",
     "typ": "miejsce",
-    "kategoria": "kategoria",
-    "link": "https://www.example.com"
+    "kategoria": "none",
+    "link": "https://maps.app.goo.gl/kF4qobaVVX3VvZDx9"
   },
   {
-    "nazwa": "string 3",
-    "opis": "opis",
-    "zdjecie": "zdjecie",
+    "nazwa": "Galeria Dzwonków",
+    "opis": "Choć do niedawna uczyli się tu studenci Akademii Górniczo-Hutniczej, a teraz robią to seniorzy, budynek Sanatorium Spółki Brackiej obecnie jest znany najbardziej jako siedziba Galerii Dzwonków. Właściciel galerii, Krzysztof Zagaja, wspomina, że jego pasja rozpoczęła się w 2007 roku. Od tego czasu kolekcja stale się powiększa, dziś zawiera ok. 8 tysięcy eksponatów. Ten charakterystyczny zabytek ze spadzistym czerwonym dachem mieści się przy ulicy 1 Maja, w pouzdrowiskowej dzielnicy Zdrój. Otoczony jest parkiem zwanym uniwersyteckim, w przeciwieństwie do głównego miejskiego Parku Zdrojowego ma nieco bardziej 'dzikie' oblicze. Znaleźć tu można między innymi dwa uznane za pomniki przyrody wiązy szypułkowe.",
+    "zdjecie": "",
+    "typ": "miejsce",
+    "kategoria": "none",
+    "link": "https://maps.app.goo.gl/Q6wbEfs4MoAaSWJV9"
+  },
+  {
+    "nazwa": "Hala Sportowa",
+    "opis": "Znajdująca się w Jastrzębiu-Zdrój hala widowiskowo sportowa to nowoczesny obiekt sportowy zarządzany przez Miejski Ośrodek Sportu i Rekreacji. Powierzchnia obiektu wynosi ponad 62 tys. m³ a trybuny są w stanie pomieścić trzy tysiące miejsc siedzących. Dzięki modernizacji obiekt jest najnowocześniejszym tego typu w regionie. W jego skład wchodzą: pełnowymiarowa arena o powierzchni około 1300 m2, 4 sale treningowe ze specjalistycznymi nawierzchniami do różnych dyscyplin sportowych, profesjonalnie wyposażone: szatnie, pomieszczenia dla sędziów i trenerów, sauna, siłownia i gabinet odnowy biologicznej, punkt pierwszej pomocy, pokój kontroli antydopingowej, wiele pomieszczeń biurowych i magazynowych oraz sale konferencyjna i prasowa. Jednym z ciekawszych miejsc znajdujących się w hali jest lodowisko Jastor, niepowtarzalna okazja by w okresie zimowym miło spędzić czas w gronie znajomych lub rodziny. Jednocześnie to znakomita forma rekreacji dla każdej grupy wiekowej. Lodowisko jest nowoczesnym kompleksem łyżwiarskim, z którego mieszkańcy Jastrzębia mogą korzystać od rana do wieczora (z wyłączeniem przerw technicznych lub zawodów/treningów sportowych). Odbywają się tu spektakularne imprezy sportowe i kulturalne dla mieszkańców regionu ale i międzynarodowe imprezy sportowe. Na tej hali odbywają się mecze Klubu Sportowego \"Jastrzębski Węgiel\" S.A.",
+    "zdjecie": "",
+    "typ": "miejsce",
+    "kategoria": "none",
+    "link": "https://maps.app.goo.gl/GqhNgetBuzqrizX79"
+  },
+  {
+    "nazwa": "Kręgielnia",
+    "opis": "W regionie żywieckim najnowocześniejszą kręgielnią jest Bowling Club i Pub Żywiecki, który przyciągaja gości swobodną oraz ​​sportową atmosferą. Wewnątrz znajdują się 4 profesjonalne tory bowlingowe obsługiwane przez maszyny na najwyższym poziomie. Jedną z najpopularniejszych atrakcji na tej kręgielni są cykliczne turnieje bowlingowe dla nowicjuszy i tych, którzy grają w kręgle od lat.",
+    "zdjecie": "",
+    "typ": "miejsce",
+    "kategoria": "none",
+    "link": "https://maps.app.goo.gl/GFeUQ6LYphTFoBCU8"
+  },
+  {
+    "nazwa": "Masnówka",
+    "opis": "To jeden z ważniejszych punktów na kulturalnej mapie miasta. Masnówka to nie tylko filia Miejskiej Biblioteki Publicznej, to także urocza, umiejscowiona na poddaszu kawiarnia Da Vinci. Na jej tarasie możemy wypić kawę rozkoszując się widokiem Parku Zdrojowego. To miejsce wydarzeń kulturalnych, warsztatów dla dzieci i dorosłych. Co roku, we wrześniu w Masnówce odbywa się też festiwal kina niezależnego FilmOFFisko. Budynek otaczają parkowe alejki, stare drzewa i jar nazywany Doliną Mikołaja.",
+    "zdjecie": "",
+    "typ": "miejsce",
+    "kategoria": "none",
+    "link": "https://maps.app.goo.gl/wY6kr8kXefQ8Zn9s7"
+  },
+  {
+    "nazwa": "Ośrodek Wypoczynku Niedzielnego",
+    "opis": "OWN jest najbardziej rodzinnym miejscem spotkań i wypoczynku. Tężnia, wodny plac zabaw, park widokowy z mini sceną i pięknie urządzone tereny zielone sprawiają, że to idealna przestrzeń rekreacji. Kolorowe, bezpieczne urządzenia takie jak: gejzery wodne, rekiny czy szczypce krabów zainstalowane w wodnym placu zabaw sprawią przede wszystkim wielką frajdę najmłodszym gościom OWN-u. Park widokowy to miejsce z kaskadowo rozrzuconymi siedziskami, poniżej którego znajduje się plac o nieregularnym kształcie, który pełni rolę mini sceny. Natomiast każdy, kto chciałby odetchnąć w solankowym zaciszu, może przyjść do tężni.",
+    "zdjecie": "",
+    "typ": "miejsce",
+    "kategoria": "none",
+    "link": "https://maps.app.goo.gl/UhQAkCp7ikx2WLqQ7"
+  },
+  {
+    "nazwa": "Pałac Borynia",
+    "opis": "XVIII-wieczny budynek, 600-letni dąb i tajemnicza Biała Dama, Pałac w Boryni to miejsce równie piękne, co tajemnicze. Położony za miastem pałac to jedyny taki zabytek w naszym mieście (z pewnością też jedyny, który tak często przechodził z rąk do rąk). Ten okazały i elegancki budynek otoczony niewielkim parkiem to widok jak z pocztówki. Duże wrażenie robią prowadzące do głównego wejścia pałacu majestatyczne schody. Od strony południowej mamy taras parkowy otoczony zielenią, w tym wspomnianym już 600-letnim dębem. Legenda głosi, że to właśnie wśród parkowych drzew spotkać można tajemniczą Białą Damę, która od czasu do czasu przechadza się wokół pałacu.",
+    "zdjecie": "",
+    "typ": "miejsce",
+    "kategoria": "none",
+    "link": "https://maps.app.goo.gl/zeA446nejLkbiELj7"
+  },
+  {
+    "nazwa": "Park Zdrojowy",
+    "opis": "W Jastrzębiu wszystkie drogi prowadzą do Parku Zdrojowego. Jest to bowiem miejsce, które mieszkańcy najbardziej lubią i najchętniej odwiedzają, a jednocześnie przestrzeń, w której pozostaje żywa pamięć o uzdrowiskowej historii miasta. To właśnie w parku znajduje się najwięcej jastrzębskich zabytków, odbywa się najwięcej wydarzeń kulturalnych i rodzinnych spacerów. Park Zdrojowy można podzielić na część górną, urządzoną na wzór ogrodu oraz dolną, nazwaną Doliną Mikołaja z licznymi ścieżkami prowadzącymi między stokami jaru oraz bujną roślinnością. Przechodząc przez Dolinę Mikołaja możemy zauważyć urokliwe fińskie mostki, na których zakochani przypinają kłódki na znak swojej miłości. W części tej znajduje się duża ilość roślin w tym, rośliny sprowadzone z Ameryki Północnej ( np. daglezja zielona ) oraz Azji ( miłorząb japoński ). Górna część parku znajdziemy natomiast liczne zabytki z czasów uzdrowiska. Największe wrażenie robi Dom Zdrojowy, który dziś jest instytucją kultury, miejscem imprez, warsztatów i koncertów. Razem z Galerią Historii Miasta i muszlą koncertową wyznacza on granice placu z fontanną. Poza tym w parku znajduje się filia biblioteki (zabytkowa Masnówka), Łazienki III,  plac zabaw oraz zabytkowa Pijalnia Wód. Spacer w tym miejscu jest przyjemnym doświadczeniem o każdej porze roku i porze dnia.",
+    "zdjecie": "",
+    "typ": "miejsce",
+    "kategoria": "none",
+    "link": "https://maps.app.goo.gl/4nfSXfGBpzJ3FT3z9"
+  },
+  {
+    "nazwa": "Sanktuarium Opatrzności",
+    "opis": "Żołnierze Armii Krajowej, więźniowie Auschwitz, Powstańcy Śląscy i Państwo Witczakowie - to właśnie tu, na cmentarzu przy Kościele Świętej Katarzyny znajdują się liczne mogiły i tablice poświęcone pamięci bohaterów i osób ważnych dla historii miasta. Jednak to nie wszystko co sprawia, że Święta Katarzyna to wyjątkowe miejsce. To również jedyne sanktuarium w naszym mieście i jeden z najstarszych kościołów w Jastrzębiu-Zdroju. Sanktuarium Opatrzności Bożej to niewielka późnobarokowa budowla z elementami klasycystycznymi. Charakterystycznym elementem kościoła jest masywna wieża, którą wieńczy pękaty hełm z latarnią, i która wyrasta poza pobliski starodrzew. Nad głównym wejściem umieszczono prostokątna tablicę heraldyczną z herbem fundatorów świątyni – Strachwitzów.  Mniej więcej w środku osi wieży widać trójkątny symbol – Oko Opatrzności. Nad nim znajduje się owalny okulus oraz tarcza zegarowa. Warto zwiedzić również wnętrze świątyni gdzie zachowała się część wyposażenia barokowego – obraz Opatrzności Bożej z 1773 roku, ambona, chrzcielnica, obraz św. Katarzyny i Droga Krzyżowa z 1836 roku.",
+    "zdjecie": "",
+    "typ": "miejsce",
+    "kategoria": "none",
+    "link": "https://maps.app.goo.gl/HHtZiAfVNhpm5b7B7"
+  },
+  {
+    "nazwa": "Pomnik \"Porozumienia Jastrzębskiego\"",
+    "opis": "To właśnie u nas wywalczono wolne soboty. Dzięki odwadze górników z jastrzębskich kopalń walczących z poprzednim systemem politycznym w latach 80  nazwa miasta wpisała się na trwałe w historię polskiej drogi do wolności. Pomnik Porozumienia Jastrzębskiego stoi koło kopalni Zofiówka, znanej niegdyś jako Manifest Lipcowy. To historyczne miejsce już na zawsze pozostanie jednym z symboli Solidarności i wolnej Polski. W 2020 postanowiliśmy uczcić 40-lecie tych wydarzeń muralem na jednym z bloków przy głównej alei miasta - Alei Piłsudskiego.",
+    "zdjecie": "",
+    "typ": "miejsce",
+    "kategoria": "none",
+    "link": "https://maps.app.goo.gl/8A2vZnwRjVWJDpmE9"
+  },
+  {
+    "nazwa": "Bajkowy Skatepark",
+    "opis": "Miłośników deskorolki, rolek czy BMX-ów zapraszamy na jar przy ulicy Turystycznej, gdzie w otoczeniu zieleni znajduje się nowoczesny skatepark i pumptrack. Ostatnia modernizacja miała miejsce w 2019 roku. Co najważniejsze, kompleks jest dobrze oceniany przez użytkowników. Wybierając się do skateparku pamiętajcie o kaskach i ochraniaczach!",
+    "zdjecie": "",
+    "typ": "miejsce",
+    "kategoria": "none",
+    "link": "https://maps.app.goo.gl/3c8QQt3tdr2t2RFc6"
+  },
+  {
+    "nazwa": "Stadion Miejski",
+    "opis": "Stadion Miejski, na którym zamontowano prawie 6 tysięcy siedzisk plastikowych, jest niewątpliwie najbardziej reprezentatywnym obiektem sportowym naszego miasta. Atutem atrakcyjności jest jego lokalizacja (centrum miasta)oraz wielofunkcyjność (płyta trawiasta, rozbudowane zaplecze z salą gimnastyczną , sauną i siłownią).Dzięki istnieniu Stadionu możliwa jest organizacja nie tylko imprez sportowych (mecze K.S. GKS 1962 JASTRZĘBIE S.A., Szkółki Piłkarskiej MOSiR, zawody lekkoatletyczne dla szkół itp.), ale również okazjonalnych imprez sportowych połączonych z festynem i występami artystów oraz zespołów rozrywkowych. Największą imprezą są organizowane corocznie w miesiącu czerwcu DNI JASTRZĘBIA-ZDROJU, a także w miesiącu maju – „Majówka z MOSiR-em\" w których uczestniczy kilkanaście tysięcy mieszkańców naszego miasta. Do udanych imprez zaliczyć należy również imprezy sportowo – rekreacyjne dla przedszkolaków i uczniów jastrzębskich szkół.",
+    "zdjecie": "",
+    "typ": "miejsce",
+    "kategoria": "none",
+    "link": "https://maps.app.goo.gl/GFeUQ6LYphTFoBCU8"
+  },
+  {
+    "nazwa": "Żelazny Szlak Rowerowy",
+    "opis": "Motywem przewodnim Żelaznego Szlaku Rowerowego jest tematyka kolei, która dawniej łączyła te tereny. Żelazny Szlak Rowerowy wykorzystuje stare, wyłączone z użytku linie kolejowe tworząc niemal 55 kilometrową pętle. Przebiegająca przez polsko-czeskie pogranicze trasa znajduje się na terenie pięciu gmin: Godów, Jastrzębie-Zdrój, Zebrzydowice, a po stronie czeskiej Karvine i Petrovice u Karvine. Początkowy odcinek jastrzębskiej części Żelaznego Szlaku Rowerowego przebiega przez Dolinę Szotkówki. Na odcinku jastrzębia co kilkaset metrów można znaleźć miejsce do odpoczynku. Główne cztery punkty wypoczynkowe z wiatami, ochronią nas w przypadku deszczu. Trasa wyłączona jest z innego ruchu niż rowerowy, poza miejscami, które przecinają się z drogą publiczną, dzięki czemu bezpieczeństwo trasy jest na wysokim poziomie. Trasa jest poprowadzona przez tereny zielone trasa pozwala rowerzystą na korzystanie z cienia w lato oraz chroni przed wiatrem w chłodniejsze dni. Dodatkowo w miejscu dawnej stacji PKP Jastrzębie-Ruptawa mamy atrakcję w formie pumptracku dla użytkowników, którzy chcą mieć więcej  wrażeń z jazdy terenowej.",
+    "zdjecie": "",
+    "typ": "miejsce",
+    "kategoria": "none",
+    "link": "https://maps.app.goo.gl/BnNH7n1THyv4ot5s5"
+  },
+  {
+    "nazwa": "Ulica 1 Maja",
+    "opis": "Każdy, kto trafi do Jastrzębia musi dotrzeć na ulicę 1 Maja, właśnie tam polecamy udać się w pierwszej kolejności. To przede wszystkim adres wielu jastrzębskich zabytków i droga do uwielbianego przez mieszkańców i przyjezdnych Parku Zdrojowego. Można śmiało przyznać, że to najbardziej spacerowa ulica miasta, wypełniona kawiarniami i restauracjami. Musicie zobaczyć ją za dnia oraz wieczorem, kiedy pięknie oświetlona tworzy romantyczną atmosferę idealną na spacer we dwoje. Spacerując ulicą 1 Maja zobaczycie kilka zabytkowych budynków: miniemy Dom św. Jacka, w którego piwnicy mieści się dziś pizzeria Naro, budynek byłego Hotelu Hohenzollern stojącego tuż obok parku oraz Willę Łucję, dziś siedzibę PCK. Tuż za zabytkowym Kościołem Najświętszego Serca Pana Jezusa (kiedyś Zakład Marii – siedziba sanatorium dla dzieci) czeka na Was główna aleja Parku Zdrojowego, którą Musicie zobaczyć. Jeśli zamiast skręcić do parku zdecydujecie się spacerować dalej ulicą zobaczycie też Betanię III – dziś okazały hotel Dąbrówka wraz z elegancką restauracją Parkową oraz stojący kilkadziesiąt metrów dalej budynek niegdysiejszego Sanatorium Spółki Brackiej, w której dziś mieści się między innymi Galeria Dzwonków.",
+    "zdjecie": "",
+    "typ": "miejsce",
+    "kategoria": "none",
+    "link": "https://maps.app.goo.gl/2EZL27w9Rk59TwUy8"
+  },
+  {
+    "nazwa": "Apteka Damian",
+    "opis": "Apteka znajduje się przy ulicy Harcerska 9 i jest czynna w tygodniu od 7:30 do 20:00, oraz w soboty od 8:00 do 14:00. Numer kontaktowy: 324719122",
+    "zdjecie": "",
     "typ": "placowka",
-    "kategoria": "kategoria",
-    "link": null
+    "kategoria": "zdrowie",
+    "link": "https://maps.app.goo.gl/uGtpWwSBNYtioGim8"
+  },
+  {
+    "nazwa": "Apteka Zdrowit",
+    "opis": "Apteka znajduje się przy ulicy Wielkopolska 2A i jest czynna w tygodniu od 07:30 do 19:00 oraz w soboty od 8:00 do 14:00. Numer kontaktowy: 324719473",
+    "zdjecie": "",
+    "typ": "placowka",
+    "kategoria": "zdrowie",
+    "link": "https://maps.app.goo.gl/r5BDLup1VPvoP5tx7"
+  },
+  {
+    "nazwa": "Pizzeria Capri",
+    "opis": "Pizzeria znana z autentycznych włoskich smaków i przyjaznej obsługi",
+    "zdjecie": "",
+    "typ": "placowka",
+    "kategoria": "jedzenie",
+    "link": "https://maps.app.goo.gl/AjfTVPVZBQ6ZTbEc9"
+  },
+  {
+    "nazwa": "Pizzeria Chili",
+    "opis": "Pizzeria serwująca ostre i aromatyczne dania z nutą meksykańskiego smaku.",
+    "zdjecie": "",
+    "typ": "placowka",
+    "kategoria": "jedzenie",
+    "link": "https://maps.app.goo.gl/zzXCpqPLK15ySYDn6"
+  },
+  {
+    "nazwa": "Pizzeria Da Grasso",
+    "opis": "Popularna sieć pizzerii oferująca smaczne i świeże dania",
+    "zdjecie": "",
+    "typ": "placowka",
+    "kategoria": "jedzenie",
+    "link": "https://maps.app.goo.gl/6942Z8A79nsaFNTB6"
+  },
+  {
+    "nazwa": "Darmozjad Grill&Burger",
+    "opis": "Miejsce dla miłośników burgerów i grillowanych potraw",
+    "zdjecie": "",
+    "typ": "placowka",
+    "kategoria": "jedzenie",
+    "link": "https://maps.app.goo.gl/YfrkBRjMoQ9PjK5B6"
+  },
+  {
+    "nazwa": "Dom Retro/PIVNICA",
+    "opis": "Restauracja w stylu retro, serwująca dania zainspirowane klasycznymi recepturami",
+    "zdjecie": "",
+    "typ": "placowka",
+    "kategoria": "jedzenie",
+    "link": "https://maps.app.goo.gl/ifvqpu8qs55u4TaF6"
+  },
+  {
+    "nazwa": "Dworek Pod Lipami Dom Przyjęć",
+    "opis": "Eleganckie miejsce na organizację różnego rodzaju przyjęć i uroczystości",
+    "zdjecie": "",
+    "typ": "placowka",
+    "kategoria": "jedzenie",
+    "link": "https://maps.app.goo.gl/tVB6rJjsLjU44bCm7"
+  },
+  {
+    "nazwa": "Włoskie Smaki",
+    "opis": "jastrzębska oaza autentycznych smaków Włoch w nowoczesnym wydaniu.",
+    "zdjecie": "",
+    "typ": "placowka",
+    "kategoria": "jedzenie",
+    "link": "https://maps.app.goo.gl/uiM7vzLyTyWogyZa6"
+  },
+  {
+    "nazwa": "Pizzeria Wyrwigrosz",
+    "opis": "kolorowe królestwo smaku, gdzie tradycja i eksperyment spotykają się w wyjątkowych pizzach.",
+    "zdjecie": "",
+    "typ": "placowka",
+    "kategoria": "jedzenie",
+    "link": "https://maps.app.goo.gl/N7ysuAySsPEsFhQx9"
+  },
+  {
+    "nazwa": "Wojewódzki Szpital Specjalistyczny nr 2",
+    "opis": "Szpital znajduje się przy ulicy Aleja Jana Pawła II 7, 44-330 Jastrzębie-Zdrój oraz jest czynny całą dobę",
+    "zdjecie": "",
+    "typ": "placowka",
+    "kategoria": "zdrowie",
+    "link": "https://maps.app.goo.gl/TaPg77iuJu2kQxVL7"
+  },
+  {
+    "nazwa": "Szpital Dziecięcy im. J. Korczaka",
+    "opis": "Szpital znajduje się przy ulicy Ignacego Krasickiego 21, 44-335 Jastrzębie-Zdrój oraz jest czynny całą dobę",
+    "zdjecie": "",
+    "typ": "placowka",
+    "kategoria": "zdrowie",
+    "link": "https://maps.app.goo.gl/4LTcYQTki5xXfauZ6"
+  },
+  {
+    "nazwa": "Restauracja Stary Zdrój",
+    "opis": "Restauracja \"Stary Zdrój\" to jedno z najbardziej niezwykłych miejsc na kulinarnej mapie Jastrzębia.",
+    "zdjecie": "",
+    "typ": "placowka",
+    "kategoria": "jedzenie",
+    "link": "https://maps.app.goo.gl/qW4JRe4vhfNmp41r6"
+  },
+  {
+    "nazwa": "Restauracja KFC",
+    "opis": "Sieć restauracji specjalizująca się w serwowaniu smażonego kurczaka i innych przekąsek fast food",
+    "zdjecie": "",
+    "typ": "placowka",
+    "kategoria": "jedzenie",
+    "link": "https://maps.app.goo.gl/E7zfKbiJBmeoV6es6"
+  },
+  {
+    "nazwa": "Zyza Bar",
+    "opis": "kulinarna przygoda w Jaśle, gdzie tradycyjna kuchnia spotyka się z nowatorskim podejściem, tworząc niezapomniane doznania smakowe",
+    "zdjecie": "",
+    "typ": "placowka",
+    "kategoria": "jedzenie",
+    "link": "https://maps.app.goo.gl/67dU93C6Vkb2uU2k6"
+  },
+  {
+    "nazwa": "Finezja - Pizza & Bistro",
+    "opis": "Miejsce z pysznymi pizzami i daniami bistro o wysokiej jakości",
+    "zdjecie": "",
+    "typ": "placowka",
+    "kategoria": "jedzenie",
+    "link": "https://maps.app.goo.gl/VnSJSoa8AU12QbKN8"
+  },
+  {
+    "nazwa": "Restauracja Ha Long",
+    "opis": "Restauracja oferująca smaczne dania kuchni azjatyckiej, w tym aromatyczne curry",
+    "zdjecie": "",
+    "typ": "placowka",
+    "kategoria": "jedzenie",
+    "link": "https://maps.app.goo.gl/edidzoHB5ozbxarH9"
+  },
+  {
+    "nazwa": "Cukiernia Jagódka",
+    "opis": "Cukiernia słynąca z wyśmienitych wypieków i ciast",
+    "zdjecie": "",
+    "typ": "placowka",
+    "kategoria": "jedzenie",
+    "link": "https://maps.app.goo.gl/S9ArSXBUMoU147gr7"
+  },
+  {
+    "nazwa": "Gospoda Bavaria",
+    "opis": "Gospoda w stylu bawarskim z tradycyjnymi daniami kuchni niemieckiej",
+    "zdjecie": "",
+    "typ": "placowka",
+    "kategoria": "rodzina",
+    "link": "https://maps.app.goo.gl/aQfUJEmz8NE8CHeR9"
+  },
+  {
+    "nazwa": "Kawiarnia Coffeinna",
+    "opis": "Kawiarnia z szerokim wyborem kaw i deserów",
+    "zdjecie": "",
+    "typ": "placowka",
+    "kategoria": "jedzenie",
+    "link": "https://maps.app.goo.gl/fsuphbdBiFZkRhjk8"
+  },
+  {
+    "nazwa": "Kawiarnia i Dom Przyjęć Poezja",
+    "opis": "Przytulne miejsce z wyśmienitym kawowym menu oraz możliwością organizacji przyjęć",
+    "zdjecie": "",
+    "typ": "placowka",
+    "kategoria": "rodzina",
+    "link": "https://maps.app.goo.gl/dhmU2p3wNMjHb1we6"
+  },
+  {
+    "nazwa": "Kompleks Dąbrówka",
+    "opis": "Piękny kompleks wypoczynkowy położony w malowniczej okolicy",
+    "zdjecie": "",
+    "typ": "placowka",
+    "kategoria": "rodzina",
+    "link": "https://maps.app.goo.gl/YdagjrzFGAQ8sBFG6"
+  },
+  {
+    "nazwa": "Krowa Mać Burgers",
+    "opis": "Miejsce znane z pysznych burgerów przygotowywanych z najlepszych składników",
+    "zdjecie": "",
+    "typ": "placowka",
+    "kategoria": "jedzenie",
+    "link": "https://maps.app.goo.gl/CoGVTNpdhMawxMmT7"
+  },
+  {
+    "nazwa": "Kawiarnia Da Vinci",
+    "opis": "Można się tam rozkoszować pyszną kawą, można przeczytać ciekawą książkę lub przejrzeć aktualne czasopisma",
+    "zdjecie": "",
+    "typ": "placowka",
+    "kategoria": "jedzenie",
+    "link": "https://maps.app.goo.gl/7atog1dzDEoeDeZn9"
+  },
+  {
+    "nazwa": "Restauracja McDonald's",
+    "opis": "Popularna sieć restauracji fast food, znana z hamburgerek i frytek",
+    "zdjecie": "",
+    "typ": "placowka",
+    "kategoria": "jedzenie",
+    "link": "https://maps.app.goo.gl/KKDppcU5myjx6nsi9"
+  },
+  {
+    "nazwa": "Restauracja Konsum",
+    "opis": "Restauracja serwująca pyszne dania oparte na lokalnych produktach",
+    "zdjecie": "",
+    "typ": "placowka",
+    "kategoria": "jedzenie",
+    "link": "https://maps.app.goo.gl/qe7rbtJj6Jq25DLaA"
+  },
+  {
+    "nazwa": "Restauracja MAXIMA",
+    "opis": "Restauracja oferująca dania z różnych kuchni świata w eleganckim wnętrzu",
+    "zdjecie": "",
+    "typ": "placowka",
+    "kategoria": "rodzina",
+    "link": "https://maps.app.goo.gl/nSAVmntWuCQTzhxk6"
+  },
+  {
+    "nazwa": "Wild Bean Cafe",
+    "opis": "Kawiarnia serwująca aromatyczną kawę i lekkie przekąski",
+    "zdjecie": "",
+    "typ": "placowka",
+    "kategoria": "jedzenie",
+    "link": "https://maps.app.goo.gl/PYjeZEGfgnmNtp329"
+  },
+  {
+    "nazwa": "Restauracja NARO",
+    "opis": "Restauracja o nowoczesnym wnętrzu i różnorodnym menu dla smakoszy",
+    "zdjecie": "",
+    "typ": "placowka",
+    "kategoria": "jedzenie",
+    "link": "https://maps.app.goo.gl/dvvFK1GFZ2r8cKiZ8"
+  },
+  {
+    "nazwa": "Restauracja Olimpia-swojska izba",
+    "opis": "Restauracja o wysokim standardzie i różnorodnym menu",
+    "zdjecie": "",
+    "typ": "placowka",
+    "kategoria": "rodzina",
+    "link": "https://maps.app.goo.gl/5qvK75TnSy6vHthJ6"
+  },
+  {
+    "nazwa": "Naleśnikarnia Trelemorele",
+    "opis": "Naleśnikarnia z różnorodnymi smakami i pysznymi dodatkami",
+    "zdjecie": "",
+    "typ": "placowka",
+    "kategoria": "jedzenie",
+    "link": "https://maps.app.goo.gl/5Jxatdj8CyctJjJA6"
+  },
+  {
+    "nazwa": "Cafeteria Mały Książę",
+    "opis": "Przytulne miejsce z pysznymi wypiekami i ciepłą atmosferą",
+    "zdjecie": "",
+    "typ": "placowka",
+    "kategoria": "jedzenie",
+    "link": "https://maps.app.goo.gl/cLZgCfXQqtTgh9Y77"
   }
 ]
